@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Pizza Calabresa",
+      "price": 27.98
+    },
+    {
+      "id": 2,
+      "name": "Pizza Bacon",
+      "price": 31.15
+    },
+    {
+      "id": 3,
+      "name": "Pizza Marguerita",
+      "price": 35.4
+    },
+    {
+      "id": 4,
+      "name": "Pizza Peperonni",
+      "price": 24.2
+    },
+    {
+      "id": 5,
+      "name": "Pizza Palmito",
+      "price": 24
+    },
+    {
+      "name": "Pizza Brócolis",
+      "price": 27.98,
+      "id": 6
+    },
+    {
+      "name": "Pizza Chocolate",
+      "price": 27.98,
+      "id": 7
+    }
+  ]
+}
