@@ -14,8 +14,18 @@ import { MatSidenavModule } from "@angular/material/sidenav";
 import { MatListModule } from "@angular/material/list";
 import { HomeComponent } from "./views/home/home.component";
 import { MatCardModule } from "@angular/material/card";
-import { ProductsComponent } from "./views/products/products.component";
-import { ProductCreateComponent } from './components/products/product-create/product-create.component';
+import { ProductCreateComponent } from "./components/product/product-create/product-create.component";
+import { ProductComponent } from "./views/product/product.component";
+import { MatButtonModule } from "@angular/material/button";
+import { MatSnackBarModule } from "@angular/material/snack-bar";
+
+import { HttpClientModule } from "@angular/common/http";
+
+import { FormsModule } from "@angular/forms";
+import { MatFormFieldModule } from "@angular/material/form-field";
+import { MatInputModule } from "@angular/material/input";
+import { ProductReadComponent } from "./components/product/product-read/product-read.component";
+import { MatGridListModule } from "@angular/material/grid-list";
 
 @NgModule({
   declarations: [
@@ -24,8 +34,9 @@ import { ProductCreateComponent } from './components/products/product-create/pro
     FooterComponent,
     NavComponent,
     HomeComponent,
-    ProductsComponent,
+    ProductComponent,
     ProductCreateComponent,
+    ProductReadComponent,
   ],
   imports: [
     BrowserModule,
@@ -35,6 +46,13 @@ import { ProductCreateComponent } from './components/products/product-create/pro
     MatSidenavModule,
     MatListModule,
     MatCardModule,
+    MatButtonModule,
+    MatSnackBarModule,
+    HttpClientModule,
+    MatInputModule,
+    MatFormFieldModule,
+    FormsModule,
+    MatGridListModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
